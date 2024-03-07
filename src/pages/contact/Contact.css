@@ -1,0 +1,92 @@
+.ContactUsPage_main {
+  margin: 0 auto;
+  padding: 3rem 0;
+  max-width: 1140px;
+  display: flex;
+  gap: 3rem;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.ContactUsPage_details {
+  border-radius: 37px;
+}
+.ContactUsPage_form,
+.ContactUsPage_details {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  width: 470px;
+}
+
+.ContactUsPage_inner {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: space-around;
+}
+.ContactUsPage_map {
+  display: flex;
+  justify-content: center;
+  padding-top: 2.5rem;
+}
+
+.ContactUsPage_details_inner {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.ContactUsPage_phoneno,
+.ContactUsPage_email,
+.ContactUsPage_office {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.c_form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.c_form_inner{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.c-txt,
+.c-msg-txt {
+  padding: 0.4rem;
+  font-size: 16px;
+  border: 2px solid;
+}
+
+.ContactUsPage_map_inner {
+  border-radius: 10px;
+}
+
+.react_icons_contactpg {
+  gap: 0.5rem;
+  display: flex;
+  align-items: center;
+}
+@media screen and (max-width: 780px) {
+  .ContactUsPage_inner {
+    flex-direction: column;
+    align-items: center;
+    gap: 2.5rem;
+  }
+}
+@media screen and (max-width: 515px) {
+  .ContactUsPage_form,
+  .ContactUsPage_details {
+    width: 90%;
+  }
+}
